@@ -12,7 +12,16 @@ const myRoute:Routes=[
   {
     path:"",
     component:AdminLoginComponent
+  },
+  {
+    path:"ul",
+    component:UserLoginComponent
+  },
+  {
+    path:"ur",
+    component:UserRegComponent
   }
+
 ]
 @NgModule({
   declarations: [
