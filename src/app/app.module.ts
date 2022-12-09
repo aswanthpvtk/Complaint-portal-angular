@@ -9,6 +9,7 @@ import { UserRegComponent } from './user-reg/user-reg.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { RouterModule, Routes } from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
+import { MainNavComponent } from './main-nav/main-nav.component';
 
 const myRoute:Routes=[
   {
@@ -30,7 +31,8 @@ const myRoute:Routes=[
     AppComponent,
     AdminLoginComponent,
     UserRegComponent,
-    UserLoginComponent
+    UserLoginComponent,
+    MainNavComponent
   ],
   imports: [
     BrowserModule,
