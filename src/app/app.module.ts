@@ -12,6 +12,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { UserinfoComponent } from './userinfo/userinfo.component';
 import { UserNavComponent } from './user-nav/user-nav.component';
+import { AddCmpComponent } from './add-cmp/add-cmp.component';
+import { AdminCmpViewComponent } from './admin-cmp-view/admin-cmp-view.component';
 
 const myRoute:Routes=[
   {
@@ -29,6 +31,14 @@ const myRoute:Routes=[
   {
     path:"uf",
     component:UserinfoComponent
+  },
+  {
+    path:"ac",
+    component:AddCmpComponent
+  },
+  {
+    path:"adcv",
+    component:AdminCmpViewComponent
   }
 
 ]
@@ -40,7 +50,9 @@ const myRoute:Routes=[
     UserLoginComponent,
     MainNavComponent,
     UserinfoComponent,
-    UserNavComponent
+    UserNavComponent,
+    AddCmpComponent,
+    AdminCmpViewComponent
   ],
   imports: [
     BrowserModule,
