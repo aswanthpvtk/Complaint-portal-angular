@@ -14,6 +14,7 @@ import { UserinfoComponent } from './userinfo/userinfo.component';
 import { UserNavComponent } from './user-nav/user-nav.component';
 import { AddCmpComponent } from './add-cmp/add-cmp.component';
 import { AdminCmpViewComponent } from './admin-cmp-view/admin-cmp-view.component';
+import { AdminNavComponent } from './admin-nav/admin-nav.component';
 
 const myRoute:Routes=[
   {
@@ -52,7 +53,8 @@ const myRoute:Routes=[
     UserinfoComponent,
     UserNavComponent,
     AddCmpComponent,
-    AdminCmpViewComponent
+    AdminCmpViewComponent,
+    AdminNavComponent
   ],
   imports: [
     BrowserModule,

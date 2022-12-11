@@ -23,7 +23,7 @@ export class AdminLoginComponent {
     if ( this.aname=="admin" && this.psw=="12345")
 
     {
-      this.route.navigate(['/ul'])
+      this.route.navigate(['/adcv'])
  
    }
  
